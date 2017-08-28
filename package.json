@@ -1,6 +1,6 @@
 {
   "name": "promise-exponential-retry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retries a promise with exponential backoff.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
