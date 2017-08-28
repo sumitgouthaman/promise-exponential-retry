@@ -1,0 +1,24 @@
+{
+  "name": "promise-exponential-retry",
+  "version": "1.0.0",
+  "description": "Retries a promise with exponential backoff.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitgouthaman/promise-exponential-retry.git"
+  },
+  "keywords": [
+    "promise",
+    "retry"
+  ],
+  "author": "Sumit Gouthaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumitgouthaman/promise-exponential-retry/issues"
+  },
+  "homepage": "https://github.com/sumitgouthaman/promise-exponential-retry#readme"
+}
