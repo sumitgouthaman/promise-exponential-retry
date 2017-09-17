@@ -10,10 +10,11 @@ export class RetryPromise {
     maxRetries, initialDelay: number, maxDelay: number, delayJitter: number,
     attemptNum) {
 
-    console.log(`Attempt ${attemptNum}/${maxRetries} of request ${requestId}`);
     if (attemptNum > maxRetries) {
       reject(`Request ${requestId} failed after ${attemptNum} attempts.`);
+      return;
     }
+    console.log(`Attempt ${attemptNum}/${maxRetries} of request ${requestId}`);
 
     let delay = 0;
     if (attemptNum !== 0) {
