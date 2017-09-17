@@ -11,7 +11,7 @@ export class RetryPromise {
     attemptNum) {
 
     if (attemptNum > maxRetries) {
-      reject(`Request ${requestId} failed after ${attemptNum} attempts.`);
+      reject(`Request ${requestId} failed after ${maxRetries} attempts.`);
       return;
     }
     console.log(`Attempt ${attemptNum}/${maxRetries} of request ${requestId}`);
